@@ -1,0 +1,23 @@
+# 実行時の生成物（propose-don't-commit の出力先）
+output/
+*.modified.md
+proposals.json
+changes.diff
+
+# 環境設定（APIキーを含みうるためコミットしない）
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Vivliostyle / Node（ビルド時に生成される場合）
+node_modules/
+*.pdf
+
+# OS / エディタ
+.DS_Store
+.vscode/
